@@ -1,3 +1,10 @@
+###
+ * Federated Wiki : Scatter Plugin
+ *
+ * Licensed under the MIT license.
+ * https://github.com/fedwiki/wiki-plugin-scatter/blob/master/LICENSE.txt
+###
+
 window.plugins.scatter =
   bind: (div, item) ->
   emit: (div, item) ->
@@ -90,4 +97,3 @@ window.plugins.scatter =
           .on("click", (d) ->
             wiki.doInternalLink(d.Material, div.parents '.page'))
           .append("svg:title").text title
-
