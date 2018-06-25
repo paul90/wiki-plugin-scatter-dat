@@ -1,5 +1,5 @@
 {
-  "name": "wiki-plugin-scatter",
+  "name": "@paul90/wiki-plugin-scatter",
   "version": "0.3.0",
   "description": "Federated Wiki - Scatter Plug-in",
   "keywords": [
@@ -28,18 +28,18 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "grunt": "~0.4",
-    "grunt-contrib-coffee": "~0.13",
-    "grunt-contrib-watch": "~0.6",
+    "grunt": "^1.0.3",
+    "grunt-contrib-coffee": "^2.0.0",
+    "grunt-contrib-watch": "^1.1.0",
     "grunt-git-authors": "~3"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fedwiki/wiki-plugin-scatter.git"
+    "url": "https://github.com/paul90/wiki-plugin-scatter-dat.git"
   },
   "bugs": {
-    "url": "https://github.com/fedwiki/wiki-plugin-scatter/issues"
+    "url": "https://github.com/paul90/wiki-plugin-scatter-dat/issues"
   },
   "engines": {
     "node": ">=0.10"
